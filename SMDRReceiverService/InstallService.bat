@@ -1,0 +1,3 @@
+@echo off
+echo Installing SMDR Server service...
+SMDRReceiverService.exe -install

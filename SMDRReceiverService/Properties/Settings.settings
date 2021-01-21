@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SMDRReceiverService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SMDR_ListeningIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0.0.0.0</Value>
+    </Setting>
+    <Setting Name="SMDR_ListeningPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">3000</Value>
+    </Setting>
+    <Setting Name="SaveToSQL" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SQL_Server" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SqlServer.domain.local</Value>
+    </Setting>
+    <Setting Name="SQL_Database" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SMDRLog</Value>
+    </Setting>
+    <Setting Name="SQL_Username" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SMDRLogger</Value>
+    </Setting>
+    <Setting Name="SQL_Password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1234567890ABC!</Value>
+    </Setting>
+    <Setting Name="SaveToCSV" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PathForCSVs" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c:\CallLogs</Value>
+    </Setting>
+    <Setting Name="VerboseEventLogging" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

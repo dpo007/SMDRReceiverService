@@ -1,0 +1,3 @@
+@echo off
+echo Uninstalling SMDR Server service...
+SMDRReceiverService.exe -uninstall
